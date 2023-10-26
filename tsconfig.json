@@ -3,8 +3,9 @@
   "exclude": ["node_modules"],
   "include": [".plasmo/index.d.ts", "./**/*.ts", "./**/*.tsx"],
   "compilerOptions": {
+    "strictNullChecks": true,
     "paths": {
-      "~*": ["./*"]
+      "~*": ["./src/*"],
     },
     "baseUrl": "."
   }
