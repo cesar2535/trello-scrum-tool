@@ -8,8 +8,8 @@ import type {
 } from "plasmo";
 import type { ButtonHTMLAttributes } from "react";
 import { createRoot } from "react-dom/client";
-import { standupMachine } from "./standup-machine";
-import Loader from "./loader";
+import { standupMachine } from "~machines/standup";
+import Loader from "../components/loader";
 
 export const config: PlasmoCSConfig = {
   matches: ["https://trello.com/b/*"],
