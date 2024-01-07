@@ -1,3 +1,4 @@
+import $ from "jquery";
 import { assign, createMachine, fromCallback, fromPromise } from "xstate";
 import type { Context, Events, Guards, Input } from "./machine-types";
 
