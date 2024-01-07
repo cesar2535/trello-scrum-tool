@@ -12,8 +12,7 @@ import { standupMachine } from "~machines/standup";
 import Loader from "../components/loader";
 
 export const config: PlasmoCSConfig = {
-  matches: ["https://trello.com/b/*"],
-  world: "MAIN"
+  matches: ["https://trello.com/b/*"]
 };
 
 type GetRootContainterParams = {

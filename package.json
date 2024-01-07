@@ -1,7 +1,7 @@
 {
   "name": "trello-scrum-tool",
   "displayName": "Trello standup tool",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A standup tool for Trello board.",
   "author": "cesarchen",
   "scripts": {
@@ -14,6 +14,7 @@
     "@plasmohq/storage": "^1.9.0",
     "@xstate/react": "^4.0.1",
     "effect": "2.0.0-next.60",
+    "jquery": "^3.7.1",
     "plasmo": "0.84.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
