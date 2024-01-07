@@ -1,7 +1,7 @@
 {
   "name": "trello-scrum-tool",
   "displayName": "Trello standup tool",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A standup tool for Trello board.",
   "author": "cesarchen",
   "scripts": {
